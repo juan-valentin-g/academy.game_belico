@@ -9,7 +9,10 @@
     "name":"Default",
   },
   "defaultScriptType":0,
-  "Folders":[],
+  "Folders":[
+    {"$GMFolder":"v1","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"v1","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+  ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
   "isEcma":false,
@@ -19,6 +22,10 @@
   },
   "name":"GAME_BELICO",
   "resources":[
+    {"id":{"name":"spr_soldado_aliado","path":"sprites/spr_soldado_aliado/spr_soldado_aliado.yy",},},
+    {"id":{"name":"spr_soldado_enemigo","path":"sprites/spr_soldado_enemigo/spr_soldado_enemigo.yy",},},
+    {"id":{"name":"obj_soldado_aliado","path":"objects/obj_soldado_aliado/obj_soldado_aliado.yy",},},
+    {"id":{"name":"obj_soldado_enemigo","path":"objects/obj_soldado_enemigo/obj_soldado_enemigo.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "resourceType":"GMProject",
